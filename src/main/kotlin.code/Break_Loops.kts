@@ -1,10 +1,11 @@
 for (i in 1..7){
     println(i)
-    if (i == 3){
-        println("i is equal 3")
+    if (i == 5){
+        println("i is equal 5")
         /*here doing the break loop
         enclosing loop in sequence
          */
+        break
     }
 }
 
@@ -12,9 +13,7 @@ for (i in 1..7){
 Output:
 1
 2
-i is equal 3
+3
 4
-5
-6
-7
+i is equal 5
  */
